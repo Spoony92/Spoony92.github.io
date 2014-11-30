@@ -1,0 +1,121 @@
+/*Betrifft alles*/
+* {
+    box-sizing: border-box;
+}
+
+/*Inhalt*/
+body {
+    margin: auto;
+}
+
+
+/*Header*/
+#header {
+    background: none repeat scroll 0% 0% #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+
+/*Allgemeines im body*/
+h1 {
+    font-family: "Sanchez", serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -82px;
+    visibility: hidden;
+}
+
+
+/*Navigation*/
+#nav ul {
+    list-style-type: none;
+}
+
+#nav li {
+    display: inline;
+    margin: -20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-family: "Sanchez", serif;
+    font-size: 16pt;
+    cursor: default;
+}
+
+#nav a:hover {
+    color: #C0C0C0;
+}
+
+#nav {
+    text-align: right;
+}
+
+#nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: gray 0px 0px 4px;
+}
+
+
+/*DIV's*/
+#cv_hg {
+    margin-top: 72px;
+    background: none repeat scroll 0% 0% #E2DFDC;
+    padding: 10px 10px;
+    color: #181510;
+}
+
+#hobbys_hg {
+    background: none repeat scroll 0% 0% #E5E2D3;
+    padding: 10px 10px;
+    color: #000000;
+}
+
+#australien_hg {
+    background: none repeat scroll 0% 0% #E8CEA7;
+    padding: 10px 10px;
+    color: #000000;
+}
+
+
+
+#cheat_sheet_hg {
+    background: none repeat scroll 0% 0% #E0DFDD;
+    padding: 10px 10px;
+    color: #000000;
+}
+
+
+#kontakt_hg {
+    background: none repeat scroll 0% 0% #90DBAD;
+    padding: 10px 10px;
+    color: #000000;
+}
+
+
+/*footer*/
+footer {
+    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 10px;
+    width: 100%;
+}
+
+footer p {
+    font-family: "Sanchez", serif;
+    font-size: 12pt;
+}
