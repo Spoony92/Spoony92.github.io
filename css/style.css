@@ -1,0 +1,87 @@
+/*All*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*************************************************************/
+/*Header*/
+
+header {
+    background: rgba(0,0,0, 0.8);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 20px 0px;
+    z-index: 2;
+}
+
+/*************************************************************/
+/*Navigation*/
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 10px;
+    font-family: Josefin Sans;
+    font-size: 14pt;
+    cursor: default;
+}
+
+nav a:hover {
+    color: #C0C0C0;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: dimgray 0px 0px 4px;
+}
+
+/*************************************************************/
+/*Body*/
+
+body {
+    display: block;
+    background-image: url("../images/background/road.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: dimgray;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: whitesmoke;
+    font-family: Josefin Sans;
+    text-align: center;
+    z-index: 1;
+}
+
+/*************************************************************/
+/*Content*/
+
+#content {
+    margin: 100px 250px;
+}
+
+/*************************************************************/
+/*Footer*/
+
+footer {
+    font-size: 9pt;
+}
+
+/*************************************************************/
+/*Social Media*/
+
+.social_media a{
+    color: whitesmoke;
+}
